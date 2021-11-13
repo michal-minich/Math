@@ -1,0 +1,10 @@
+{
+    "extends": "../../tsconfig.json",
+    "include": [
+        "./../**/*",
+        "../../dist/web/drawings/drawing.js"
+    ],
+    "compilerOptions": {
+        "outDir": "../../dist/web/scripts",
+    }
+}
